@@ -1,0 +1,572 @@
+{
+  "business": {
+    "name": "Kaiser Construction",
+    "phone": "+17757509575",
+    "category": "remodeling contractor",
+    "city": "San Diego",
+    "state": "CA"
+  },
+  "design": {
+    "preset": {
+      "id": "roofing-dark-premium",
+      "categoryGroup": "roofing",
+      "name": "Dark Premium",
+      "recipeFile": "roofing/dark-premium.astro",
+      "colors": {
+        "primary": "#FF6B35",
+        "primaryDark": "#E05A2B",
+        "primaryLight": "#FFD4C2",
+        "secondary": "#2A2A2A",
+        "accent": "#FF8C5A",
+        "background": "#1A1A1A",
+        "backgroundAlt": "#111111",
+        "surface": "#2A2A2A",
+        "text": "#F5F5F5",
+        "textLight": "#A0A0A0",
+        "textOnDark": "#FFFFFF",
+        "border": "#3A3A3A"
+      },
+      "typography": {
+        "headingFont": "Space Grotesk",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "6px",
+        "buttonRadius": "6px",
+        "cardRadius": "10px",
+        "shadowStyle": "glow"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "dark",
+          "surface",
+          "dark",
+          "surface",
+          "dark"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "roofing/dark-premium"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "San Diego Remodeling Done Right",
+      "heroSubline": "Kaiser Construction delivers quality craftsmanship and dependable service. Transforming homes across San Diego County for over a decade.",
+      "aboutTitle": "Built on Integrity, Driven by Quality",
+      "aboutText": [
+        "Kaiser Construction started with a simple goal: to provide San Diego homeowners with remodeling services built on honesty and superior workmanship. We're not just builders; we're problem solvers, dedicated to making your vision a reality.",
+        "Our approach is hands-on and collaborative. We listen to your needs, offer expert guidance, and manage every detail of your project, from initial design to final inspection. We treat your home as if it were our own, ensuring minimal disruption and maximum satisfaction.",
+        "We're proud to be a part of the San Diego community. We source materials locally whenever possible, support local businesses, and contribute to organizations that make our city a better place to live."
+      ],
+      "valueProps": [
+        {
+          "title": "Local Expertise",
+          "description": "Deep understanding of San Diego architecture, climate, and building codes."
+        },
+        {
+          "title": "Transparent Pricing",
+          "description": "Clear, detailed estimates with no hidden fees or surprises."
+        },
+        {
+          "title": "Quality Craftsmanship",
+          "description": "Skilled professionals dedicated to delivering exceptional results."
+        },
+        {
+          "title": "Project Management",
+          "description": "Seamless coordination and communication throughout the entire remodeling process."
+        }
+      ],
+      "ctaHeadline": "Ready to Remodel?",
+      "ctaSubline": "Schedule a free consultation today and let's discuss your project."
+    },
+    "services": [
+      {
+        "slug": "kitchen-remodeling",
+        "name": "Kitchen Remodeling",
+        "shortDescription": "Transform your kitchen into the heart of your San Diego home.",
+        "description": "Kaiser Construction specializes in creating stunning and functional kitchens tailored to your lifestyle. Whether you're dreaming of a modern, open-concept design or a classic, timeless space, we have the expertise to bring your vision to life. We handle every aspect of the remodel, from initial design and layout to cabinet installation, countertop fabrication, and appliance upgrades. We understand the unique challenges of San Diego kitchens, from space constraints in older homes to the need for durable, moisture-resistant materials that can withstand the coastal climate. \n\nOur team works closely with you to select the perfect materials, finishes, and fixtures to match your style and budget. We use only the highest-quality products from trusted brands, ensuring lasting beauty and performance. We also pay close attention to energy efficiency, helping you reduce your utility bills and minimize your environmental impact. From concept to completion, we're committed to delivering a kitchen that exceeds your expectations and becomes the centerpiece of your home.",
+        "process": [
+          "Step 1: Initial Consultation & Design",
+          "Step 2: Material Selection & Budgeting",
+          "Step 3: Demolition & Construction",
+          "Step 4: Final Touches & Inspection"
+        ],
+        "benefits": [
+          "Increased Home Value",
+          "Improved Functionality",
+          "Enhanced Aesthetics",
+          "Personalized Design"
+        ],
+        "faq": [
+          {
+            "question": "How long does a kitchen remodel typically take?",
+            "answer": "The timeline varies depending on the scope of the project, but most kitchen remodels take between 6-12 weeks."
+          },
+          {
+            "question": "Do you handle permits for kitchen remodels?",
+            "answer": "Yes, we manage all necessary permits and inspections to ensure your project complies with local building codes."
+          },
+          {
+            "question": "What type of kitchen layouts do you offer?",
+            "answer": "We offer a wide range of layouts, including galley, L-shaped, U-shaped, and island kitchens, tailored to your space and preferences."
+          }
+        ]
+      },
+      {
+        "slug": "bathroom-remodeling",
+        "name": "Bathroom Remodeling",
+        "shortDescription": "Create a spa-like retreat with our expert bathroom remodeling services.",
+        "description": "Kaiser Construction transforms ordinary bathrooms into luxurious and functional spaces. Whether you're looking to update fixtures, expand the layout, or create a completely new design, we have the skills and experience to deliver exceptional results. We understand the importance of a well-designed bathroom, and we work closely with you to create a space that meets your needs and reflects your personal style. From selecting the perfect tile and vanities to installing new showers, tubs, and toilets, we handle every detail with precision and care.\n\nWe're also mindful of the unique challenges of San Diego bathrooms, such as moisture control and ventilation. We use moisture-resistant materials and install high-quality ventilation systems to prevent mold and mildew growth. We're experienced in working with a variety of bathroom styles, from modern and minimalist to classic and traditional. Whether you're renovating a small guest bathroom or a large master suite, we're committed to delivering a bathroom that exceeds your expectations and becomes a haven in your home.",
+        "process": [
+          "Step 1: Design Consultation & Planning",
+          "Step 2: Material Selection & Procurement",
+          "Step 3: Demolition & Renovation",
+          "Step 4: Fixture Installation & Finishing"
+        ],
+        "benefits": [
+          "Increased Comfort",
+          "Improved Functionality",
+          "Enhanced Style",
+          "Added Home Value"
+        ],
+        "faq": [
+          {
+            "question": "What is the average cost of a bathroom remodel?",
+            "answer": "The cost varies depending on the size and scope of the project, but we provide detailed estimates to help you stay within your budget."
+          },
+          {
+            "question": "Do you offer financing options for bathroom remodels?",
+            "answer": "Yes, we partner with reputable lenders to offer financing options to qualified homeowners."
+          },
+          {
+            "question": "How long will my bathroom be out of service during the remodel?",
+            "answer": "We work efficiently to minimize disruption, and we typically complete bathroom remodels in 2-4 weeks."
+          }
+        ]
+      },
+      {
+        "slug": "whole-house-remodeling",
+        "name": "Whole House Remodeling",
+        "shortDescription": "Transform your entire home with our comprehensive remodeling services.",
+        "description": "Kaiser Construction specializes in whole-house remodeling projects, transforming outdated or inefficient homes into modern, stylish, and functional living spaces. We understand that a whole-house remodel is a significant undertaking, and we're committed to making the process as smooth and stress-free as possible. We work closely with you to develop a comprehensive plan that addresses your needs, preferences, and budget. Our team manages every aspect of the remodel, from initial design and planning to demolition, construction, and finishing. \n\nWe're experienced in working with a variety of architectural styles, from the charming 1920s cottages in beach communities to the sprawling suburban developments of the 1970s and 80s. We understand the unique challenges of remodeling older homes, such as dealing with outdated wiring and plumbing systems. We use only the highest-quality materials and employ skilled craftsmen to ensure lasting beauty and performance. Whether you're looking to update your kitchen, bathrooms, flooring, or entire layout, we're committed to delivering a whole-house remodel that exceeds your expectations and transforms your house into the home of your dreams.",
+        "process": [
+          "Step 1: Comprehensive Consultation & Planning",
+          "Step 2: Detailed Design & Budgeting",
+          "Step 3: Permitting & Preparation",
+          "Step 4: Execution & Project Management"
+        ],
+        "benefits": [
+          "Increased Property Value",
+          "Improved Energy Efficiency",
+          "Enhanced Living Space",
+          "Personalized Design"
+        ],
+        "faq": [
+          {
+            "question": "What is the typical timeframe for a whole-house remodel?",
+            "answer": "The timeframe varies depending on the scope and complexity of the project, but we provide a detailed schedule and keep you informed every step of the way."
+          },
+          {
+            "question": "Do I need to move out of my house during a whole-house remodel?",
+            "answer": "Moving out is often recommended for extensive remodels, but we can discuss options to minimize disruption and allow you to stay in your home if possible."
+          },
+          {
+            "question": "How do you handle unexpected issues that may arise during the remodel?",
+            "answer": "We have a proactive approach to problem-solving and communicate openly with you to address any unexpected issues quickly and efficiently."
+          }
+        ]
+      },
+      {
+        "slug": "room-additions",
+        "name": "Room Additions",
+        "shortDescription": "Expand your living space with our seamless room addition services.",
+        "description": "Kaiser Construction specializes in designing and building room additions that seamlessly integrate with your existing home. Whether you need a new bedroom, a larger living room, or a home office, we have the expertise to create a space that meets your needs and enhances your lifestyle. We handle every aspect of the project, from initial design and planning to foundation work, framing, roofing, and finishing. We understand the importance of blending the new addition with the existing structure, and we pay close attention to architectural details and material selection.\n\nWe're also mindful of the unique challenges of San Diego construction, such as seismic considerations and wildfire risks in inland areas. We use earthquake-resistant construction techniques and fire-resistant materials to ensure the safety and durability of your addition. We obtain all necessary permits and comply with local building codes. From concept to completion, we're committed to delivering a room addition that exceeds your expectations and adds value to your home.",
+        "process": [
+          "Step 1: Site Evaluation & Design",
+          "Step 2: Permitting & Approvals",
+          "Step 3: Foundation & Framing",
+          "Step 4: Finishing & Details"
+        ],
+        "benefits": [
+          "Increased Living Space",
+          "Enhanced Comfort",
+          "Improved Functionality",
+          "Added Home Value"
+        ],
+        "faq": [
+          {
+            "question": "How long does it take to build a room addition?",
+            "answer": "The timeline varies depending on the size and complexity of the project, but most room additions take between 3-6 months."
+          },
+          {
+            "question": "What permits are required for a room addition?",
+            "answer": "We handle all necessary permits, including building permits, electrical permits, and plumbing permits."
+          },
+          {
+            "question": "How do you ensure the room addition matches my existing home?",
+            "answer": "We carefully match the architectural style, materials, and finishes to create a seamless transition between the new addition and the existing structure."
+          }
+        ]
+      },
+      {
+        "slug": "exterior-remodeling",
+        "name": "Exterior Remodeling",
+        "shortDescription": "Boost your curb appeal with our expert exterior remodeling services.",
+        "description": "Kaiser Construction enhances the beauty and functionality of your home's exterior with our comprehensive remodeling services. We specialize in projects that improve curb appeal, increase energy efficiency, and protect your home from the elements. Whether you're looking to update your siding, replace your windows, or add a new deck or patio, we have the skills and experience to deliver exceptional results. We understand the importance of using durable, weather-resistant materials that can withstand the harsh San Diego climate, including intense sun exposure and salt air corrosion near the coast.\n\nWe offer a wide range of exterior remodeling services, including siding replacement, window and door installation, roof repair and replacement, deck and patio construction, and painting. We work closely with you to select the perfect materials, colors, and styles to match your home's architecture and your personal taste. We're committed to delivering an exterior remodel that enhances the beauty and value of your home for years to come.",
+        "process": [
+          "Step 1: Exterior Assessment & Design",
+          "Step 2: Material Selection & Planning",
+          "Step 3: Preparation & Protection",
+          "Step 4: Installation & Finishing"
+        ],
+        "benefits": [
+          "Increased Curb Appeal",
+          "Improved Energy Efficiency",
+          "Enhanced Home Value",
+          "Protection from the Elements"
+        ],
+        "faq": [
+          {
+            "question": "What types of siding materials do you offer?",
+            "answer": "We offer a variety of siding materials, including vinyl, wood, fiber cement, and stucco."
+          },
+          {
+            "question": "How can new windows improve my home's energy efficiency?",
+            "answer": "New windows can significantly reduce energy loss by preventing drafts and insulating your home from heat and cold."
+          },
+          {
+            "question": "Do you offer warranties on your exterior remodeling services?",
+            "answer": "Yes, we offer warranties on our workmanship and the materials we use."
+          }
+        ]
+      },
+      {
+        "slug": "deck-patio-construction",
+        "name": "Deck & Patio Construction",
+        "shortDescription": "Extend your living space outdoors with a custom-designed deck or patio.",
+        "description": "Kaiser Construction designs and builds custom decks and patios that create inviting outdoor living spaces for San Diego homeowners. Whether you're looking for a relaxing space to unwind, a place to entertain guests, or an outdoor kitchen, we have the expertise to bring your vision to life. We handle every aspect of the project, from initial design and planning to foundation work, framing, decking, and finishing. We understand the importance of using durable, weather-resistant materials that can withstand the San Diego climate, including intense sun exposure and occasional rain.\n\nWe offer a wide range of decking and patio options, including wood, composite, and concrete. We work closely with you to select the perfect materials, colors, and styles to match your home's architecture and your personal taste. We're committed to delivering a deck or patio that enhances your outdoor living experience and adds value to your home.",
+        "process": [
+          "Step 1: Design Consultation & Planning",
+          "Step 2: Material Selection & Permitting",
+          "Step 3: Foundation & Framing",
+          "Step 4: Decking & Finishing"
+        ],
+        "benefits": [
+          "Increased Outdoor Living Space",
+          "Enhanced Relaxation",
+          "Improved Entertainment Area",
+          "Added Home Value"
+        ],
+        "faq": [
+          {
+            "question": "What are the benefits of composite decking?",
+            "answer": "Composite decking is durable, low-maintenance, and resistant to rot, insects, and fading."
+          },
+          {
+            "question": "Do I need a permit for a deck or patio?",
+            "answer": "Permits are typically required for decks and patios, and we handle all necessary permitting processes."
+          },
+          {
+            "question": "How long does it take to build a deck or patio?",
+            "answer": "The timeline varies depending on the size and complexity of the project, but most decks and patios take between 2-4 weeks to build."
+          }
+        ]
+      }
+    ],
+    "serviceAreas": [
+      {
+        "city": "Chula Vista",
+        "slug": "chula-vista-ca",
+        "state": "CA",
+        "content": "Kaiser Construction is proud to offer comprehensive remodeling services in Chula Vista, California. We understand the unique character of Chula Vista's homes, many of which were built in the 1970s and 80s, and specialize in updating these suburban residences to meet modern needs and styles. Whether you're looking to renovate your kitchen, bathroom, or entire home, our team has the expertise to bring your vision to life.\n\nChula Vista's mild, year-round climate makes it an ideal place to enjoy outdoor living spaces. Kaiser Construction can help you create the perfect patio, deck, or outdoor kitchen to take advantage of the beautiful weather. We use high-quality materials and proven techniques to ensure that your remodeling project is both beautiful and durable, adding value and enjoyment to your Chula Vista home.",
+        "localContext": "Chula Vista is known for its family-friendly atmosphere and diverse community, with many homes reflecting the suburban architectural styles popular in the late 20th century.",
+        "nearbyAreas": [
+          "San Diego",
+          "National City",
+          "Bonita"
+        ]
+      },
+      {
+        "city": "Carlsbad",
+        "slug": "carlsbad-ca",
+        "state": "CA",
+        "content": "Kaiser Construction is dedicated to providing exceptional remodeling services in Carlsbad, California.  With its charming beach community atmosphere, Carlsbad features many unique cottages and coastal homes. We specialize in renovations that enhance the beauty and functionality of these properties, while respecting their original character.\n\nGiven Carlsbad's wonderful mild climate, we help homeowners maximize their indoor-outdoor living spaces. From custom decks to updated patios, we create areas that allow our clients to take full advantage of the Southern California weather. Kaiser Construction is committed to delivering superior craftsmanship and personalized service to every Carlsbad homeowner.",
+        "localContext": "Carlsbad boasts a relaxed coastal vibe, with many homes designed to capture ocean breezes and views.",
+        "nearbyAreas": [
+          "Encinitas",
+          "Oceanside",
+          "Vista"
+        ]
+      },
+      {
+        "city": "Escondido",
+        "slug": "escondido-ca",
+        "state": "CA",
+        "content": "Kaiser Construction provides top-quality remodeling services to homeowners in Escondido, California. We are familiar with Escondido's diverse housing stock, including many ranch-style homes built in the 1960s and 70s.  We can help you update these classic homes with modern amenities and stylish designs.\n\nEscondido's mild climate provides opportunities for outdoor living. Consider letting Kaiser Construction build a new deck or patio to make the most of the weather. We use only the best materials and proven construction techniques to ensure your satisfaction.",
+        "localContext": "Escondido offers a mix of residential neighborhoods and commercial centers, with many homes reflecting mid-century architectural trends.",
+        "nearbyAreas": [
+          "San Marcos",
+          "Vista",
+          "Poway"
+        ]
+      },
+      {
+        "city": "San Diego",
+        "slug": "san-diego-ca",
+        "state": "CA",
+        "content": "Kaiser Construction provides expert remodeling services throughout San Diego, California. From historic homes in downtown to modern residences in the suburbs, we have the experience and expertise to handle any project. Our team is dedicated to providing exceptional craftsmanship and personalized service.\n\nSan Diego's beautiful weather makes outdoor living a priority for many homeowners. We specialize in creating stunning outdoor spaces, including decks, patios, and outdoor kitchens. We work closely with our clients to bring their vision to life, while ensuring that every detail is perfect.",
+        "localContext": "As a large metropolitan city, San Diego features a wide variety of architectural styles and neighborhood characteristics.",
+        "nearbyAreas": [
+          "La Jolla",
+          "Pacific Beach",
+          "Coronado"
+        ]
+      },
+      {
+        "city": "Oceanside",
+        "slug": "oceanside-ca",
+        "state": "CA",
+        "content": "Kaiser Construction is delighted to offer our remodeling services in Oceanside, California, a vibrant coastal community. We know what it takes to make your home shine, including kitchen remodels, bathroom renovations, and complete home transformations. We bring your vision to life with our expertise and dedication to quality.\n\nOceanside's beautiful beaches and sunny weather mean that many homeowners seek to enhance their outdoor living spaces. We can help you create the perfect outdoor oasis, complete with a custom deck, patio, or outdoor kitchen. We ensure that your outdoor space is both beautiful and functional for years to come.",
+        "localContext": "Oceanside is known for its beautiful beaches and family-friendly atmosphere, with a mix of older and newer homes.",
+        "nearbyAreas": [
+          "Carlsbad",
+          "Vista",
+          "San Marcos"
+        ]
+      },
+      {
+        "city": "Encinitas",
+        "slug": "encinitas-ca",
+        "state": "CA",
+        "content": "Kaiser Construction is proud to serve the community of Encinitas, California, with our top-notch remodeling services. We understand the unique charm of Encinitas homes and strive to enhance their beauty and functionality. Whether you're looking to update your kitchen, remodel your bathroom, or renovate your entire home, we're here to help.\n\nEncinitas's coastal location and mild climate make it an ideal place to enjoy outdoor living. We can create stunning outdoor spaces that allow you to make the most of the weather, from custom decks and patios to outdoor kitchens and fire pits. With our expertise and dedication to quality, we'll create an outdoor space that you'll love for years to come.",
+        "localContext": "Encinitas is known for its laid-back surf culture and beautiful beaches, with a mix of older beach cottages and newer custom homes.",
+        "nearbyAreas": [
+          "Carlsbad",
+          "Solana Beach",
+          "Leucadia"
+        ]
+      },
+      {
+        "city": "Vista",
+        "slug": "vista-ca",
+        "state": "CA",
+        "content": "Kaiser Construction is committed to providing exceptional remodeling services to homeowners in Vista, California. We understand the diverse needs of Vista residents and offer a wide range of services to meet those needs. From kitchen and bathroom remodels to whole-house renovations, we're here to help you transform your home.\n\nVista's mild climate and beautiful scenery make it an ideal place to enjoy outdoor living. We can help you create the perfect outdoor space, whether you're looking for a custom deck, patio, or outdoor kitchen. We use only the highest quality materials and proven construction techniques to ensure that your project is both beautiful and durable.",
+        "localContext": "Vista offers a mix of residential neighborhoods, commercial centers, and agricultural areas, with a variety of housing styles.",
+        "nearbyAreas": [
+          "San Marcos",
+          "Escondido",
+          "Oceanside"
+        ]
+      },
+      {
+        "city": "Poway",
+        "slug": "poway-ca",
+        "state": "CA",
+        "content": "Kaiser Construction is delighted to serve the community of Poway, California, with our expert remodeling services. We understand the unique character of Poway homes and strive to enhance their beauty and functionality. Whether you're looking to update your kitchen, remodel your bathroom, or renovate your entire home, we're here to help.\n\nPoway's family-friendly atmosphere and beautiful surroundings make it an ideal place to live. We can help you create the perfect home to raise your family, with custom designs and high-quality materials. We're committed to providing exceptional service and ensuring your complete satisfaction.",
+        "localContext": "Poway is a suburban community known for its family-friendly atmosphere, excellent schools, and abundant outdoor recreational opportunities.",
+        "nearbyAreas": [
+          "Escondido",
+          "Rancho Bernardo",
+          "Scripps Ranch"
+        ]
+      },
+      {
+        "city": "San Marcos",
+        "slug": "san-marcos-ca",
+        "state": "CA",
+        "content": "Kaiser Construction proudly offers remodeling services in San Marcos, California, a vibrant and growing city. We are familiar with the various home styles in San Marcos and can tailor our services to meet your specific needs. Whether you're looking for a kitchen remodel, bathroom renovation, or a complete home makeover, we're dedicated to bringing your vision to life.\n\nSan Marcos offers a wonderful climate, perfect for indoor-outdoor living. Kaiser Construction can help you enhance your outdoor spaces with custom patios, decks, and outdoor kitchens. We use high-quality materials and expert craftsmanship to create spaces you'll enjoy for years to come.",
+        "localContext": "San Marcos offers a mix of residential, commercial and educational areas, and is home to California State University San Marcos.",
+        "nearbyAreas": [
+          "Escondido",
+          "Vista",
+          "Carlsbad"
+        ]
+      },
+      {
+        "city": "National City",
+        "slug": "national-city-ca",
+        "state": "CA",
+        "content": "Kaiser Construction is pleased to provide remodeling services to National City, California. We understand the specific needs of homeowners in National City and offer a range of services to meet them. Whether you are looking to remodel a kitchen, bathroom, or your entire home, we are here to assist.\n\nNational City's central location and proximity to San Diego Bay make it a desirable place to live. Kaiser Construction can help you maximize your home's potential with high-quality remodeling services. We strive for customer satisfaction and aim to exceed your expectations.",
+        "localContext": "National City is a diverse community with a mix of residential and commercial areas, close to the San Diego Bay and downtown San Diego.",
+        "nearbyAreas": [
+          "Chula Vista",
+          "San Diego",
+          "Bonita"
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Maria S.",
+        "rating": 5,
+        "service": "Kitchen Remodeling",
+        "text": "Kaiser Construction did an amazing job remodeling our kitchen. They listened to our needs and created a beautiful, functional space that we absolutely love. The team was professional, efficient, and always kept us informed throughout the process. Highly recommend!",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "David K.",
+        "rating": 4,
+        "service": "Bathroom Remodeling",
+        "text": "We hired Kaiser Construction to remodel our master bathroom, and we're very happy with the results. The quality of the workmanship is excellent, and the team was very responsive to our questions and concerns. There were a couple of minor delays, but they communicated well and made sure everything was completed to our satisfaction.",
+        "date": "2025-02-20"
+      },
+      {
+        "name": "Jennifer L.",
+        "rating": 5,
+        "service": "Whole House Remodeling",
+        "text": "Kaiser Construction transformed our entire house! We updated the kitchen, bathrooms, and flooring throughout. The project was a big undertaking, but the team handled everything with professionalism and expertise. We're thrilled with the results and highly recommend them.",
+        "date": "2024-12-10"
+      },
+      {
+        "name": "Robert M.",
+        "rating": 5,
+        "service": "Room Addition",
+        "text": "We added a new bedroom and bathroom to our home with Kaiser Construction, and the experience was fantastic. The team was knowledgeable, efficient, and always kept the job site clean and organized. The addition blends seamlessly with our existing home, and we couldn't be happier.",
+        "date": "2024-11-05"
+      },
+      {
+        "name": "Susan P.",
+        "rating": 4,
+        "service": "Exterior Remodeling",
+        "text": "Kaiser Construction replaced our siding and windows, and the results are beautiful. The new siding has completely transformed the look of our home, and the new windows have made a noticeable difference in our energy bills. The team was professional and courteous, and they completed the project on time and within budget.",
+        "date": "2024-10-12"
+      },
+      {
+        "name": "Michael B.",
+        "rating": 5,
+        "service": "Deck & Patio Construction",
+        "text": "We had Kaiser Construction build a new deck in our backyard, and it's become our favorite place to relax and entertain. The deck is beautifully designed and built, and the team was a pleasure to work with. We highly recommend them for any deck or patio project.",
+        "date": "2024-09-28"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Kaiser Construction | San Diego Remodeling",
+        "description": "Expert remodeling services in San Diego. Kitchens, bathrooms, whole house remodels, & more. Call for a free consultation!"
+      },
+      "about": {
+        "title": "About Kaiser Construction | San Diego Remodeling",
+        "description": "Learn about Kaiser Construction's values, experience, and commitment to quality remodeling in San Diego County."
+      },
+      "services": {
+        "title": "San Diego Remodeling Services | Kaiser Construction",
+        "description": "Comprehensive remodeling services in San Diego: Kitchens, bathrooms, additions, and more. Get a free quote today!"
+      },
+      "contact": {
+        "title": "Contact Kaiser Construction | San Diego Remodeling",
+        "description": "Contact Kaiser Construction for your San Diego remodeling needs. Get in touch for a free consultation and estimate."
+      },
+      "reviews": {
+        "title": "Kaiser Construction Reviews | San Diego Remodeling",
+        "description": "Read reviews from satisfied Kaiser Construction customers in San Diego. See why we're the trusted choice for remodeling."
+      },
+      "service-areas": {
+        "title": "San Diego Remodeling Service Areas",
+        "description": "Kaiser Construction provides remodeling services throughout San Diego County. See our service area map and contact us today."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    }
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "kitchen-remodeling": "/images/service-kitchen-remodeling.webp",
+      "bathroom-remodeling": "/images/service-bathroom-remodeling.webp",
+      "whole-house-remodeling": "/images/service-whole-house-remodeling.webp",
+      "room-additions": "/images/service-room-additions.webp",
+      "exterior-remodeling": "/images/service-exterior-remodeling.webp",
+      "deck-patio-construction": "/images/service-deck-patio-construction.webp"
+    },
+    "servicesResponsive": {
+      "kitchen-remodeling": {
+        "src": "/images/service-kitchen-remodeling.webp",
+        "srcset": "/images/service-kitchen-remodeling-400w.webp 400w, /images/service-kitchen-remodeling-800w.webp 800w, /images/service-kitchen-remodeling-1200w.webp 1200w, /images/service-kitchen-remodeling.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "bathroom-remodeling": {
+        "src": "/images/service-bathroom-remodeling.webp",
+        "srcset": "/images/service-bathroom-remodeling-400w.webp 400w, /images/service-bathroom-remodeling-800w.webp 800w, /images/service-bathroom-remodeling-1200w.webp 1200w, /images/service-bathroom-remodeling.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "whole-house-remodeling": {
+        "src": "/images/service-whole-house-remodeling.webp",
+        "srcset": "/images/service-whole-house-remodeling-400w.webp 400w, /images/service-whole-house-remodeling-800w.webp 800w, /images/service-whole-house-remodeling-1200w.webp 1200w, /images/service-whole-house-remodeling.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "room-additions": {
+        "src": "/images/service-room-additions.webp",
+        "srcset": "/images/service-room-additions-400w.webp 400w, /images/service-room-additions-800w.webp 800w, /images/service-room-additions-1200w.webp 1200w, /images/service-room-additions.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "exterior-remodeling": {
+        "src": "/images/service-exterior-remodeling.webp",
+        "srcset": "/images/service-exterior-remodeling-400w.webp 400w, /images/service-exterior-remodeling-800w.webp 800w, /images/service-exterior-remodeling-1200w.webp 1200w, /images/service-exterior-remodeling.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "deck-patio-construction": {
+        "src": "/images/service-deck-patio-construction.webp",
+        "srcset": "/images/service-deck-patio-construction-400w.webp 400w, /images/service-deck-patio-construction-800w.webp 800w, /images/service-deck-patio-construction-1200w.webp 1200w, /images/service-deck-patio-construction.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
